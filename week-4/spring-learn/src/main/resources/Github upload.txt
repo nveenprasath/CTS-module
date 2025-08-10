@@ -1,0 +1,47 @@
+✅ Steps to Add New Projects to GitHub Repository (CTS-Deepskilling)
+Let’s say your new project is for week-6.
+
+🗂️ Step 1: Place Your Project in the Right Folder
+Move or create your new project under this path:
+
+objectivec
+Copy
+Edit
+D:\CTS\12345\CTS-Deepskilling\week-6
+Make sure you're inside the same local repo where you added week-5.
+
+💻 Step 2: Open Git Bash / CMD and Navigate
+bash
+Copy
+Edit
+D:
+cd CTS\12345\CTS-Deepskilling
+📦 Step 3: Stage the New Folder
+bash
+Copy
+Edit
+git add week-6
+📝 Step 4: Commit the Changes
+bash
+Copy
+Edit
+git commit -m "Added project files for week-6"
+🚀 Step 5: Push to GitHub
+bash
+Copy
+Edit
+git push origin main
+✅ After Push
+Visit: https://github.com/BHARANI-18/CTS-Deepskilling
+
+You’ll see the new folder week-6 with your project files
+
+🧠 Summary of Commands for Any Future Week
+bash
+Copy
+Edit
+cd D:\CTS\12345\CTS-Deepskilling
+git add week-X
+git commit -m "Added project files for week-X"
+git push origin main
+(Replace week-X with week-7, week-8, etc.)
