@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; 
+  padding: 30px;
+}
+
+.section {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.vertical-line {
+  width: 4px;
+  background-color: green;
+
+  margin: 0 10px;
+}
